@@ -161,8 +161,7 @@ public class ArrayUebung
 		aa2 = a2.toCharArray();
 		for(int i = 0; i < aa1.length; i++)
 		{
-			if  (Character.isLetterOrDigit(aa1[i]));
-			else
+			if  (Character.isLetterOrDigit(aa1[i]))
 			{
 				for(int j = 0; j < 36; j++)
 				{
@@ -175,8 +174,7 @@ public class ArrayUebung
 		}
 		for(int i = 0; i < aa2.length; i++)
 		{
-			if  (Character.isLetterOrDigit(aa2[i]));
-			else
+			if  (Character.isLetterOrDigit(aa2[i]))
 			{
 				for(int j = 0; j < 36; j++)
 				{
