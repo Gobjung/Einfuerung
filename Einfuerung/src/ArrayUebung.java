@@ -13,7 +13,7 @@ public class ArrayUebung
 	static List<Integer> Anz = new ArrayList<Integer>();
 	static List<Integer> A1 = new ArrayList<Integer>();
 	static List<Integer> A2 = new ArrayList<Integer>();
-	static String a1 = "as1d  f";
+	static String a1 = "as1d)=()(()  f";
 	static String a2 = "asf1d";
 	static char aa1[];
 	static char aa2[];
@@ -161,21 +161,29 @@ public class ArrayUebung
 		aa2 = a2.toCharArray();
 		for(int i = 0; i < aa1.length; i++)
 		{
-			for(int j = 0; j < 36; j++)
+			if  (Character.isLetterOrDigit(aa1[i]));
+			else
 			{
-				if(aa1[i] == abc.get(j))
+				for(int j = 0; j < 36; j++)
 				{
-					A1.set(j, A1.get(j) + 1);
+					if(aa1[i] == abc.get(j))
+					{
+						A1.set(j, A1.get(j) + 1);
+					}
 				}
 			}
 		}
 		for(int i = 0; i < aa2.length; i++)
 		{
-			for(int j = 0; j < 36; j++)
+			if  (Character.isLetterOrDigit(aa2[i]));
+			else
 			{
-				if(aa2[i] == abc.get(j))
+				for(int j = 0; j < 36; j++)
 				{
-					A2.set(j, A2.get(j) + 1);
+					if(aa2[i] == abc.get(j))
+					{
+						A2.set(j, A2.get(j) + 1);
+					}
 				}
 			}
 		}

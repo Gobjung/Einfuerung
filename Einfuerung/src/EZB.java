@@ -6,6 +6,7 @@ public class EZB
 	
 	static List<Character> abc = new ArrayList<Character>();
 	static char chars[];
+	static
 	
 	public static void main(String[] args) 
 	{
