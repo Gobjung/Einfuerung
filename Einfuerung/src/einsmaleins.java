@@ -1,6 +1,5 @@
-
 public class einsmaleins {
-
+	
 	public static void main(String[] args) 
 	{
 		rechnen();
